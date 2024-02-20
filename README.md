@@ -1,6 +1,6 @@
 # ResPro Bot 👨‍💻
 _Want to find the project file but lazy? Ask **ResPro**!_
-Try my bot over here [ResPro](https://t.me/RES_P_bot)
+Try my bot [ResPro](https://t.me/RES_P_bot)
 
 ## Inspiration 💡
 As an undergraduate students who have less time to scroll over the internet, I have provided a one-stop solution to their project findings
@@ -29,7 +29,7 @@ Created a bot from telegram **BotFather** and used the **bot token** and connect
 - Deployment of a telegram bot
 - Cleanliness of a code
 
-## What's next for RamsiiBot! 🔮
+## What's next for ResProBot! 🔮
 - We are looking to further populate our database with greater breadth and depth, be it through any open-source datasets, APIs, or user feedback
 - Increasing customizability like research papers, minor projects etc.
 - Moving to a cloud database on Google Cloud Platform which could make updates more convenient
