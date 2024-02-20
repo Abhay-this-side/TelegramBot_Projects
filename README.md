@@ -23,7 +23,7 @@ Created a bot from telegram **BotFather** and used the **bot token** and connect
 - Developing a rather smooth flow for users
 - Made free for anyone from anywhere
 
-## What we learned 🙇 
+## What I learned 🙇 
 - How to work with different APIs (python-telegram-bot, mysql-connector, filters, upgrades)
 - Queries in SQL
 - Deployment of a telegram bot
