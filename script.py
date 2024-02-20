@@ -23,13 +23,13 @@ DB_PASSWORD = 'parker@5'
 DB_NAME = 'telegram_bot'
 
 # Supported languages (modify as needed)
-SUPPORTED_LANGUAGES = ['python', 'c++', 'javascript', 'html', 'css']
+SUPPORTED_LANGUAGES = ['python', 'c++', 'javascript', 'html', 'css','java','php','kotlin','sql']
 
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, "Hello! I'm your language PDF helper. To get started, enter '/language' followed by the programming language you're interested in (e.g., /language python).")
+    bot.send_message(message.chat.id, "Hello! I'm your language PDF helper. To get started, enter '/language' followed by the programming language you're interested in (e.g., /language python or /language sql).")
 
 @bot.message_handler(commands=['language'])
 def handle_language(message):
