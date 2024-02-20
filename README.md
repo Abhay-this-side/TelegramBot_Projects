@@ -10,7 +10,7 @@ It provides the project based on the **language** the user wants and gives them 
 - /start: starts the bot
 * /language: enter the language in the format /language python
   
-## How we built it 🛠
+## How I built it 🛠
 Created a bot from telegram **BotFather** and used the **bot token** and connected telegram and python using different libraries. I created a Telegram bot using python-telegram-bot and telethon libraries and deployed it on MySQL workbench using my-sql-connector. Set up my database using SQL to store the different languages(for instance only 9 languages are supported by the bot)
 
 ## Challenges I ran into 🧗‍
