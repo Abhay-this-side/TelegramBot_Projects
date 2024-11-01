@@ -17,9 +17,10 @@ def download_file(url, local_path):
 TOKEN = '6604980552:AAFEBOLWJAjeDmDvKcaqTiS1cC_Im9SlmKQ'
 
 # MySQL connection details
+TOKEN = 'your-bot-token'
 DB_HOST = 'localhost'
 DB_USER = 'root'
-DB_PASSWORD = 'parker@5'
+DB_PASSWORD = 'your-password'
 DB_NAME = 'telegram_bot'
 
 # Supported languages (modify as needed)
