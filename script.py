@@ -56,8 +56,8 @@ def handle_language(message):
         mycursor = mydb.cursor()
 
         # Fetch PDF file URL from database (replace 'language' with your table and column names)
-        sql = f"SELECT pdf_path FROM language_pdf WHERE language = '{language}'"
-        mycursor.execute(sql)
+        sql = "SELECT pdf_path FROM language_pdf WHERE language = %s"
+        mycursor.execute(sql, (language,))
         pdf_url = mycursor.fetchone()
 
         if pdf_url is not None:
