@@ -1,5 +1,5 @@
 CREATE DATABASE telegram_bot;
-use telegram_bot;
+USE telegram_bot;
 CREATE TABLE language_pdf (
     language VARCHAR(50),
     pdf_path VARCHAR(255)
